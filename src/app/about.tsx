@@ -1,14 +1,14 @@
-function App() {
+function About() {
 
     return (
         <>
             <div>
                 <p>
-                    blazed.space R&D
+                    About blazed.space R&D
                 </p>
             </div>
         </>
     );
 }
 
-export default App;
+export default About;
