@@ -8,7 +8,7 @@ function Home() {
                 </div>
                 <p>
                     blazed.space R&D. <br />
-                    <a href="/about">
+                    <a href="/#/about">
                         About Us
                     </a>
                 </p>
