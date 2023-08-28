@@ -1,0 +1,27 @@
+import { Menu, MenuItem } from "../lib/types/site";
+
+const mainMenu = {
+    _id: "root",
+    nav: [
+        {
+            label: "Home",
+            href: "/#/"
+        },
+        {
+            label: "About",
+            href: "/#/about"
+        },
+        {
+            label: "Projects",
+            href: "/#/projects"
+        },
+        {
+            label: "Research",
+            href: "/#/journal"
+        }
+    ] as MenuItem[]
+} as Menu;
+
+export {
+    mainMenu
+};

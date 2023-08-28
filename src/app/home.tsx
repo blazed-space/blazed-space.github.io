@@ -1,3 +1,5 @@
+import Hero from "../components/hero";
+
 function Home() {
 
     return (
@@ -6,12 +8,7 @@ function Home() {
                 <div className="relative max-w- mx-auto">
                     {/*<img src="/images/blazed-banner-lg.png" alt="" />*/}
                 </div>
-                <p>
-                    blazed.space R&D. <br />
-                    <a href="/#/about">
-                        About Us
-                    </a>
-                </p>
+                <Hero />
             </div>
         </>
     );
