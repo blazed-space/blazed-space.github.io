@@ -40,9 +40,11 @@ const router = createHashRouter([
     }
 ]);
 
+/*
 const worker = new Worker(new URL('./worker.js', import.meta.url), {
     type: "module"
 });
+*/
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
