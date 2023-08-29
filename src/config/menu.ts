@@ -12,8 +12,8 @@ const mainMenu = {
             href: "/#/about"
         },
         {
-            label: "Projects",
-            href: "/#/projects"
+            label: "Contribute",
+            href: "/#/contribute"
         },
         {
             label: "Research",

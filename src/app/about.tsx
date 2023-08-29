@@ -1,3 +1,4 @@
+import { HiLightBulb, HiSparkles, HiBeaker, HiGlobeAlt, HiEmojiHappy, HiUserGroup } from 'react-icons/hi';
 function About() {
 
     return (
@@ -33,7 +34,7 @@ function About() {
                                     <h3 className="text-xl">
                                         What We Do
                                     </h3>
-                                    <ul className="list-disc pl-5">
+                                    <ul className="block list-disc pl-10">
                                         <li>
                                             <b>Cutting-Edge Applications:</b> Our applications are more than code—they're experiences. We build applications that redefine user engagement and elevate business success.
                                         </li>
@@ -52,7 +53,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="m-4 md:m-8 pb-10 text-gray-800">
+                <div className="m-4 md:m-8 px-5 lg:px-20 pb-10 text-gray-800">
                     <div className="container mx-auto p-4 my-6 space-y-2 text-center">
                         <h3 className="text-4xl font-bold">
                             Why Choose Us?
@@ -60,9 +61,7 @@ function About() {
                     </div>
                     <div className="container mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
                         <div className="flex flex-col items-center p-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 text-violet-600">
-                                <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd"></path>
-                            </svg>
+                            <HiLightBulb className="w-10 h-10" />
                             <h3 className="my-3 text-xl font-semibold">
                                 Cutting-Edge Solutions
                             </h3>
@@ -73,9 +72,7 @@ function About() {
                             </div>
                         </div>
                         <div className="flex flex-col items-center p-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 text-violet-600">
-                                <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd"></path>
-                            </svg>
+                            <HiSparkles className="w-10 h-10" />
                             <h3 className="my-3 text-xl font-semibold">
                                 Limitless Creativity
                             </h3>
@@ -86,9 +83,7 @@ function About() {
                             </div>
                         </div>
                         <div className="flex flex-col items-center p-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 text-violet-600">
-                                <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd"></path>
-                            </svg>
+                            <HiBeaker className="w-10 h-10" />
                             <h3 className="my-3 text-xl font-semibold">
                                 Research-Driven Excellence
                             </h3>
@@ -99,9 +94,7 @@ function About() {
                             </div>
                         </div>
                         <div className="flex flex-col items-center p-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 text-violet-600">
-                                <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd"></path>
-                            </svg>
+                            <HiGlobeAlt className="w-10 h-10" />
                             <h3 className="my-3 text-xl font-semibold">
                                 Global Collaboration
                             </h3>
@@ -112,9 +105,7 @@ function About() {
                             </div>
                         </div>
                         <div className="flex flex-col items-center p-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 text-violet-600">
-                                <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd"></path>
-                            </svg>
+                            <HiEmojiHappy className="w-10 h-10" />
                             <h3 className="my-3 text-xl font-semibold">
                                 Impactful Results
                             </h3>
@@ -125,9 +116,7 @@ function About() {
                             </div>
                         </div>
                         <div className="flex flex-col items-center p-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 text-violet-600">
-                                <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd"></path>
-                            </svg>
+                            <HiUserGroup className="w-10 h-10" />
                             <h3 className="my-3 text-xl font-semibold">
                                 Expert Team
                             </h3>

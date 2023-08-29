@@ -10,11 +10,12 @@ import Layout from './Layout';
 import Home from './app/home';
 import About from './app/about';
 import Conduct from './app/conduct';
-import Projects from './app/projects';
 import Journal from './app/journal';
+import Contrubute from './app/contribute';
+import ErrorPage from './app/error';
+
 
 import './index.css';
-import ErrorPage from './app/error';
 
 const router = createHashRouter([
     {
@@ -31,8 +32,8 @@ const router = createHashRouter([
         element: <Conduct />
     },
     {
-        path: "/projects",
-        element: <Projects />
+        path: "/contribute",
+        element: <Contrubute />
     },
     {
         path: "/journal",

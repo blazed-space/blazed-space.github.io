@@ -36,6 +36,16 @@
   background-color:#5b626e;
 }
 
+::selection{
+  background:#ece937;
+  color:#000;
+}
+
+::-moz-selection{
+  background:#ece937;
+  color:#000;
+}
+
 body {
   font-family: 'Hind Vadodara', sans-serif;
   color: rgb(var(--foreground-rgb));

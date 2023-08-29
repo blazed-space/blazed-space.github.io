@@ -1,3 +1,4 @@
+import { HiOutlineQuestionMarkCircle } from 'react-icons/hi';
 export default function Hero(){
     return (
         <div className="bg-gray-100 text-gray-800">
@@ -11,7 +12,10 @@ export default function Hero(){
                     </p>
                     <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                         <a rel="noopener noreferrer" href="/#/about" className="px-8 py-3 text-lg font-semibold rounded bg-red-600 hover:bg-red-700 active:bg-red-800 text-gray-50">
-                            Learn More
+                            <HiOutlineQuestionMarkCircle className="inline-flex mr-4 w-5 h-5" />
+                            <span className="inline-flex">
+                                Learn More
+                            </span>
                         </a>
                         <a rel="noopener noreferrer" href="/#/journal" className="px-8 py-3 text-lg font-semibold border rounded border-gray-800 hover:bg-gray-900 hover:text-gray-100 active:bg-gray-800">
                             Research Journal
