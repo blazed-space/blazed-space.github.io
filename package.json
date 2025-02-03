@@ -1,7 +1,7 @@
 {
     "name": "blazed-space.github.io",
     "private": true,
-    "version": "0.0.0",
+    "version": "1.0.0",
     "type": "module",
     "homepage": "https://blazed-space.github.io/#/",
     "scripts": {

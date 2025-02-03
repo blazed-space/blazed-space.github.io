@@ -9,7 +9,6 @@ import Layout from './Layout';
 
 import Home from './app/home';
 import About from './app/about';
-import Conduct from './app/conduct';
 import Journal from './app/journal';
 import Contrubute from './app/contribute';
 import ErrorPage from './app/error';
@@ -26,10 +25,6 @@ const router = createHashRouter([
     {
         path: "/about",
         element: <About />,
-    },
-    {
-        path: "/code-of-conduct",
-        element: <Conduct />
     },
     {
         path: "/contribute",

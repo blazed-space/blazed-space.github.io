@@ -1,5 +1,7 @@
 import Heading from "../components/heading";
 
+import './journal.css';
+
 const Contrubute = () => {
 
     return (
@@ -116,13 +118,6 @@ const Contrubute = () => {
                 Ensure user experience and satisfaction is put first before personal or corporate gain.
               </li>
             </ul>
-
-            <Heading title="Code of Conduct" />
-
-            <p className="py-5">
-              Read and abide by our <a href="/#/code-of-conduct" className="text-blue-500 hover:underline">Code of Conduct</a>.
-              We expect all contributors to follow these guidelines to ensure a positive and respectful community.
-            </p>
 
             <div className="relative mb-6 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:mb-8">
               <img src="/images/lockscreen-beaker.png" loading="lazy" alt="Ibis Interactive" className="object-cover object-center" />
